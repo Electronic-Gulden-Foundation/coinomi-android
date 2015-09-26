@@ -163,7 +163,9 @@ public class Constants {
             new CoinAddress(NovacoinMain.get(),     new ServerAddress("nvc-cce-1.coinomi.net", 5034),
                                                     new ServerAddress("nvc-cce-2.coinomi.net", 5034)),
             new CoinAddress(ParkbyteMain.get(),     new ServerAddress("pkb-cce-1.coinomi.net", 5035),
-                                                    new ServerAddress("pkb-cce-2.coinomi.net", 5035))
+                                                    new ServerAddress("pkb-cce-2.coinomi.net", 5035)),
+            new CoinAddress(EguldenMain.get(),      new ServerAddress("ec2-52-19-86-179.eu-west-1.compute.amazonaws.com", 50001),
+                                                    new ServerAddress("ec2-52-18-65-223.eu-west-1.compute.amazonaws.com", 50001))
     );
 
     public static final HashMap<CoinType, Integer> COINS_ICONS;
