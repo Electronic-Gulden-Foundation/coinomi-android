@@ -4,8 +4,8 @@ import android.text.format.DateUtils;
 
 import com.coinomi.core.coins.BitcoinMain;
 import com.coinomi.core.coins.BitcoinTest;
-import com.coinomi.core.coins.CanadaeCoinMain;
 import com.coinomi.core.coins.BlackcoinMain;
+import com.coinomi.core.coins.CanadaeCoinMain;
 import com.coinomi.core.coins.CannacoinMain;
 import com.coinomi.core.coins.CoinID;
 import com.coinomi.core.coins.CoinType;
@@ -14,24 +14,25 @@ import com.coinomi.core.coins.DigibyteMain;
 import com.coinomi.core.coins.DigitalcoinMain;
 import com.coinomi.core.coins.DogecoinMain;
 import com.coinomi.core.coins.DogecoinTest;
+import com.coinomi.core.coins.EguldenMain;
 import com.coinomi.core.coins.FeathercoinMain;
+import com.coinomi.core.coins.JumbucksMain;
 import com.coinomi.core.coins.LitecoinMain;
 import com.coinomi.core.coins.LitecoinTest;
 import com.coinomi.core.coins.MonacoinMain;
 import com.coinomi.core.coins.NamecoinMain;
+import com.coinomi.core.coins.NeoscoinMain;
+import com.coinomi.core.coins.NovacoinMain;
 import com.coinomi.core.coins.NuBitsMain;
 import com.coinomi.core.coins.NuSharesMain;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.coins.NovacoinMain;
 import com.coinomi.core.coins.ParkbyteMain;
+import com.coinomi.core.coins.PeercoinMain;
 import com.coinomi.core.coins.ReddcoinMain;
 import com.coinomi.core.coins.RubycoinMain;
+import com.coinomi.core.coins.ShadowCashMain;
 import com.coinomi.core.coins.UroMain;
-import com.coinomi.core.coins.NeoscoinMain;
-import com.coinomi.core.coins.JumbucksMain;
 import com.coinomi.core.coins.VertcoinMain;
 import com.coinomi.core.coins.VpncoinMain;
-import com.coinomi.core.coins.ShadowCashMain;
 import com.coinomi.core.network.CoinAddress;
 import com.coinomi.stratumj.ServerAddress;
 import com.google.common.collect.ImmutableList;
@@ -270,6 +271,7 @@ public class Constants {
             ParkbyteMain.get(),
             BitcoinTest.get(),
             LitecoinTest.get(),
-            DogecoinTest.get()
+            DogecoinTest.get(),
+            EguldenMain.get()
     );
 }
