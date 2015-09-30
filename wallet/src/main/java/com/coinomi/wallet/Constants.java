@@ -269,9 +269,9 @@ public class Constants {
             CannacoinMain.get(),
             NeoscoinMain.get(),
             ParkbyteMain.get(),
+            EguldenMain.get(),
             BitcoinTest.get(),
             LitecoinTest.get(),
-            DogecoinTest.get(),
-            EguldenMain.get()
+            DogecoinTest.get()
     );
 }
