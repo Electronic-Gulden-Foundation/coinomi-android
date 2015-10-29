@@ -165,8 +165,8 @@ public class Constants {
                                                     new ServerAddress("nvc-cce-2.coinomi.net", 5034)),
             new CoinAddress(ParkbyteMain.get(),     new ServerAddress("pkb-cce-1.coinomi.net", 5035),
                                                     new ServerAddress("pkb-cce-2.coinomi.net", 5035)),
-            new CoinAddress(EguldenMain.get(),      new ServerAddress("ec2-52-19-86-179.eu-west-1.compute.amazonaws.com", 50001),
-                                                    new ServerAddress("ec2-52-18-65-223.eu-west-1.compute.amazonaws.com", 50001))
+            new CoinAddress(EguldenMain.get(),      new ServerAddress("electrum1.egulden.org", 5037),
+                                                    new ServerAddress("electrum2.egulden.org", 5037))
     );
 
     public static final HashMap<CoinType, Integer> COINS_ICONS;
